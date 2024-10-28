@@ -1,14 +1,17 @@
 import React from 'react';
 import './navBar.css'
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
     return (
         <div className="nav">
-            <h1>NavBar</h1>
-            <a href="">1</a>
-            <a href="">2</a>
-            <a href="">3</a>
-            <a href="">4</a>
+            <h1>La cueva TCG</h1>
+            <a href="">Magic The Gathering</a>
+            <a href="">Pokemon</a>
+            <a href="">One Piece</a>
+            <a href="">Lairen</a>
+            <a href="">Accesorios</a>
+            <CartWidget/>
         </div>
     );
 };
